@@ -21205,3 +21205,34 @@ footer#contact-us div.footer-sm-screen .copyright p {
              color: white;
          }
         /*# sourceMappingURL=style.css.map */
+
+        .btn{
+            background-color: #4d3c65;
+            border-radius: 4px;
+            border: none;
+            margin: 10px;
+            color: white;
+            font-size: 16px;
+            padding: 14px 40px;
+        }
+        /* .btn-primary{
+            background-color: #4a58f3;
+            border: none;
+        } */
+        .btn-check:active+.btn-primary, .btn-check:checked+.btn-primary, .btn-primary.active, .btn-primary:active, .show>.btn-primary.dropdown-toggle{
+            background-color: #4a58f3;
+            border: none;
+        }
+        .btn:hover{
+            background-color:#4a58f3 ;
+            border: none;
+        }
+        .btn:active{
+            background-color:#4a58f3 ;
+border: none;
+        }
+
+        .btn-check:checked{
+            background-color:#4a58f3 ;
+
+        }

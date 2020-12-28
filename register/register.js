@@ -1,170 +1,170 @@
-//-------------- register your region --------------------------
+// //-------------- register your region --------------------------
 
 
-//-----------region select
-// constants
-const regionSelectOptions = document.querySelector('.region-select-options'),
-    regionOptions = [...regionSelectOptions.children],
-    regionValue = document.querySelector('.region-value'),
-    formRegionSelect = document.querySelector('.form-region-select'),
-    regionArrow = document.querySelector('.region-arrow-icon'),
-    otherRegionInput = document.querySelector('.other-region-type');
+// //-----------region select
+// // constants
+// const regionSelectOptions = document.querySelector('.region-select-options'),
+//     regionOptions = [...regionSelectOptions.children],
+//     regionValue = document.querySelector('.region-value'),
+//     formRegionSelect = document.querySelector('.form-region-select'),
+//     regionArrow = document.querySelector('.region-arrow-icon'),
+//     otherRegionInput = document.querySelector('.other-region-type');
 
 
-// make visible or hidden region select options
-formRegionSelect.addEventListener('click', (e) => {
-    if (regionArrow.classList[1] === "active") {
-        hideRegionOptions();
-    } else {
-        hideDeviceOptions();
-        showRegionOptions();
-    }
-});
+// // make visible or hidden region select options
+// formRegionSelect.addEventListener('click', (e) => {
+//     if (regionArrow.classList[1] === "active") {
+//         hideRegionOptions();
+//     } else {
+//         hideDeviceOptions();
+//         showRegionOptions();
+//     }
+// });
 
-function hideRegionOptions() {
-    regionArrow.classList.remove('active');
-    regionSelectOptions.style.visibility = "hidden";
-    regionSelectOptions.style.opacity = 0;
-}
+// function hideRegionOptions() {
+//     regionArrow.classList.remove('active');
+//     regionSelectOptions.style.visibility = "hidden";
+//     regionSelectOptions.style.opacity = 0;
+// }
 
-function showRegionOptions() {
-    regionArrow.classList.add('active');
-    regionSelectOptions.style.visibility = "visible";
-    regionSelectOptions.style.opacity = 1;
-}
-
-
-// ----- Device choosing
-
-// remove options active class
-function removeRegionActive() {
-    for (let option in regionOptions) {
-        if (regionOptions[option].innerHTML !== "Other*") {
-            // console.log(options[option].innerHTML);
-            otherRegionInput.style.display = "none";
-        }
-        regionOptions[option].classList.remove('active');
-    }
-}
+// function showRegionOptions() {
+//     regionArrow.classList.add('active');
+//     regionSelectOptions.style.visibility = "visible";
+//     regionSelectOptions.style.opacity = 1;
+// }
 
 
-// get active element value
-function regionActiveElementValue() {
-    for (let option in regionOptions) {
-        if (regionOptions[option].classList[1] === "active") {
-            if (regionOptions[option].innerHTML === "Other*") {
-                // console.log(options[option].innerHTML);
-                otherRegionInput.style.display = "block";
-            }
-            return regionOptions[option].innerHTML;
-        }
-    }
-}
+// // ----- Device choosing
 
-// chose Region select option
-regionSelectOptions.addEventListener('click', (e) => {
-    const selectedOption = e.target;
-    removeRegionActive();
-    selectedOption.classList.add('active');
-    regionValue.innerHTML = regionActiveElementValue()
-});
+// // remove options active class
+// function removeRegionActive() {
+//     for (let option in regionOptions) {
+//         if (regionOptions[option].innerHTML !== "Other*") {
+//             // console.log(options[option].innerHTML);
+//             otherRegionInput.style.display = "none";
+//         }
+//         regionOptions[option].classList.remove('active');
+//     }
+// }
 
 
-// -------device select
-// constants
-const deviceSelectOptions = document.querySelector('.device-select-options'),
-    deviceOptions = [...deviceSelectOptions.children],
-    deviceValue = document.querySelector('.device-value'),
-    formDeviceSelect = document.querySelector('.form-device-select'),
-    deviceArrow = document.querySelector('.device-arrow-icon'),
-    otherDeviceInput = document.querySelector('.other-device'),
-    bottomText = document.querySelector('.bottom-text'),
-    formSubmitBtn = document.querySelector('.form-submit'),
-    registerContainer = document.querySelector('.register-container');
+// // get active element value
+// function regionActiveElementValue() {
+//     for (let option in regionOptions) {
+//         if (regionOptions[option].classList[1] === "active") {
+//             if (regionOptions[option].innerHTML === "Other*") {
+//                 // console.log(options[option].innerHTML);
+//                 otherRegionInput.style.display = "block";
+//             }
+//             return regionOptions[option].innerHTML;
+//         }
+//     }
+// }
+
+// // chose Region select option
+// regionSelectOptions.addEventListener('click', (e) => {
+//     const selectedOption = e.target;
+//     removeRegionActive();
+//     selectedOption.classList.add('active');
+//     regionValue.innerHTML = regionActiveElementValue()
+// });
 
 
-// make visible or hidden select options
-formDeviceSelect.addEventListener('click', (e) => {
-    if (deviceArrow.classList[1] === "active") {
-        hideDeviceOptions();
-
-    } else {
-        hideRegionOptions();
-        showDeviceOptions();
-    }
-});
-
-function hideDeviceOptions() {
-    deviceArrow.classList.remove('active');
-    deviceSelectOptions.style.visibility = "hidden";
-    deviceSelectOptions.style.opacity = 0;
-    regionArrow.style.display = "block";
-    formRegionSelect.style.position = "relative"
-}
-
-function showDeviceOptions() {
-    deviceArrow.classList.add('active');
-    deviceSelectOptions.style.visibility = "visible";
-    deviceSelectOptions.style.opacity = 1;
-    deviceSelectOptions.style.overflow = "hidden";
-    regionArrow.style.display = "none";
-    formRegionSelect.style.position = "static";
-}
+// // -------device select
+// // constants
+// const deviceSelectOptions = document.querySelector('.device-select-options'),
+//     deviceOptions = [...deviceSelectOptions.children],
+//     deviceValue = document.querySelector('.device-value'),
+//     formDeviceSelect = document.querySelector('.form-device-select'),
+//     deviceArrow = document.querySelector('.device-arrow-icon'),
+//     otherDeviceInput = document.querySelector('.other-device'),
+//     bottomText = document.querySelector('.bottom-text'),
+//     formSubmitBtn = document.querySelector('.form-submit'),
+//     registerContainer = document.querySelector('.register-container');
 
 
-// ----- Device choosing
+// // make visible or hidden select options
+// formDeviceSelect.addEventListener('click', (e) => {
+//     if (deviceArrow.classList[1] === "active") {
+//         hideDeviceOptions();
 
-// remove options active class
-function removeActive() {
-    for (let option in deviceOptions) {
-        if (deviceOptions[option].innerHTML !== "Other*") {
-            // console.log(options[option].innerHTML);
-            otherDeviceInput.style.display = "none";
-        }
-        deviceOptions[option].classList.remove('active');
-    }
-}
+//     } else {
+//         hideRegionOptions();
+//         showDeviceOptions();
+//     }
+// });
+
+// function hideDeviceOptions() {
+//     deviceArrow.classList.remove('active');
+//     deviceSelectOptions.style.visibility = "hidden";
+//     deviceSelectOptions.style.opacity = 0;
+//     regionArrow.style.display = "block";
+//     formRegionSelect.style.position = "relative"
+// }
+
+// function showDeviceOptions() {
+//     deviceArrow.classList.add('active');
+//     deviceSelectOptions.style.visibility = "visible";
+//     deviceSelectOptions.style.opacity = 1;
+//     deviceSelectOptions.style.overflow = "hidden";
+//     regionArrow.style.display = "none";
+//     formRegionSelect.style.position = "static";
+// }
 
 
-// get active element value
-function ActiveElementValue() {
-    for (let option in deviceOptions) {
-        if (deviceOptions[option].classList[1] === "active") {
-            if (deviceOptions[option].innerHTML === "Other*") {
-                console.log(deviceOptions[option].innerHTML);
-                otherDeviceInput.style.display = "block";
-            }
-            return deviceOptions[option].innerHTML;
-        }
-    }
-}
+// // ----- Device choosing
 
-// reset form
-function resetForm() {
-    registerForm.reset();
-    regionValue.innerHTML = "Region type";
-    deviceValue.innerHTML = "Device";
-    removeActive();
-    removeRegionActive();
-}
+// // remove options active class
+// function removeActive() {
+//     for (let option in deviceOptions) {
+//         if (deviceOptions[option].innerHTML !== "Other*") {
+//             // console.log(options[option].innerHTML);
+//             otherDeviceInput.style.display = "none";
+//         }
+//         deviceOptions[option].classList.remove('active');
+//     }
+// }
 
-function showBottomTexts() {
 
-    bottomText.style.display = "flex";
-    bottomText.style.visibility = "visible";
-    bottomText.style.opacity = 1;
-    registerContainer.style.paddingBottom = "100px";
-    formSubmitBtn.value = "DONE !"
+// // get active element value
+// function ActiveElementValue() {
+//     for (let option in deviceOptions) {
+//         if (deviceOptions[option].classList[1] === "active") {
+//             if (deviceOptions[option].innerHTML === "Other*") {
+//                 console.log(deviceOptions[option].innerHTML);
+//                 otherDeviceInput.style.display = "block";
+//             }
+//             return deviceOptions[option].innerHTML;
+//         }
+//     }
+// }
 
-}
+// // reset form
+// function resetForm() {
+//     registerForm.reset();
+//     regionValue.innerHTML = "Region type";
+//     deviceValue.innerHTML = "Device";
+//     removeActive();
+//     removeRegionActive();
+// }
 
-// chose select option
-deviceSelectOptions.addEventListener('click', (e) => {
-    const selectedOption = e.target;
-    removeActive();
-    selectedOption.classList.add('active');
-    deviceValue.innerHTML = ActiveElementValue()
-});
+// function showBottomTexts() {
+
+//     bottomText.style.display = "flex";
+//     bottomText.style.visibility = "visible";
+//     bottomText.style.opacity = 1;
+//     registerContainer.style.paddingBottom = "100px";
+//     formSubmitBtn.value = "DONE !"
+
+// }
+
+// // chose select option
+// deviceSelectOptions.addEventListener('click', (e) => {
+//     const selectedOption = e.target;
+//     removeActive();
+//     selectedOption.classList.add('active');
+//     deviceValue.innerHTML = ActiveElementValue()
+// });
 
 
 // post request
