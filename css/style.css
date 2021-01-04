@@ -1571,7 +1571,7 @@ header nav.big-screen ul li.order-vriendly .items a span {
 
 /*----------------------------*/
 header nav.big-screen ul li.upcoming {
-    width: 200px;
+    width: 150px;
     height: auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1656,7 +1656,7 @@ header nav.big-screen ul li.upcoming a span:hover::after {
 /*_____________________________*/
 /*----------------------------*/
 header nav.big-screen ul li.sign-up-for-beta {
-    width: 200px;
+    width: 150px;
     height: auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -6515,6 +6515,10 @@ footer#contact-us div.footer-big-screen .upper .our-company .items a:nth-child(3
     -webkit-animation: animateToTop2 1s ease .7s forwards;
     animation: animateToTop2 1s ease .7s forwards;
 }
+footer#contact-us div.footer-big-screen .upper .our-company .items a:nth-child(4).animate-to-top2 {
+    -webkit-animation: animateToTop2 1s ease .9s forwards;
+    animation: animateToTop2 1s ease .9s forwards;
+}
 
 footer#contact-us div.footer-big-screen .upper .our-company .items a:nth-child(1) span::before {
     content: "About Us";
@@ -6533,11 +6537,18 @@ footer#contact-us div.footer-big-screen .upper .our-company .items a:nth-child(2
 }
 
 footer#contact-us div.footer-big-screen .upper .our-company .items a:nth-child(3) span::before {
-    content: "Features";
+    content: "Team";
 }
 
 footer#contact-us div.footer-big-screen .upper .our-company .items a:nth-child(3) span::after {
-    content: "Features";
+    content: "Team";
+}
+footer#contact-us div.footer-big-screen .upper .our-company .items a:nth-child(4) span::before {
+    content: "Partners";
+}
+
+footer#contact-us div.footer-big-screen .upper .our-company .items a:nth-child(4) span::after {
+    content: "Partners";
 }
 
 footer#contact-us div.footer-big-screen .upper .our-company .items a span {
