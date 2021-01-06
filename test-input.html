@@ -23,12 +23,15 @@
           integrity="sha256-UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw=" crossorigin="anonymous"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
             integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>
-            
-    <!-- FONT AWESOME  -->
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
     <link rel="stylesheet" href="login/login.css"/>
     <title>Vriendly</title>
+    <style>
+        .form-inputs{
+            background-color: #6d2359;
+            opacity: 0.5;
+        }
+    </style>
 </head>
 <body>
 
@@ -177,14 +180,14 @@
 <main id="main">
     <div class="bg-image">
         <div class="login-container">
-            <h1 class="login-title">Forgot Password</h1>
+            <h1 class="login-title">Login</h1>
             <form class="login-form">
-
-                <input class="form-inputs" name="email" type="email" placeholder="E-mail">
-
-
-            <input class="form-submit" value="Send me e-mail" type="submit">
-            <a id="registerDirection" href="./register.html"><img src="./images/Arrow 4.png" alt="">             Back</a>
+              <p>Incorrect email or password,please try again   </p>
+            <input class="form-inputs" name="email" type="email" placeholder="Email address">
+            <input class="form-inputs" name="password" type="password" placeholder="Password">
+           
+            <input class="form-submit" value="Login" type="submit">
+            <a id="registerDirection" href="./register.html">Or Register</a>
 
            </form>
         </div>

@@ -21236,3 +21236,8 @@ border: none;
             background-color:#4a58f3 ;
 
         }
+        .btn-check:active+.btn-primary, .btn-check:checked+.btn-primary, .btn-primary.active, .btn-primary:active, .show>.btn-primary.dropdown-toggle {
+            background-color: #4a58f3 !important;
+            border: none;
+        }
+     

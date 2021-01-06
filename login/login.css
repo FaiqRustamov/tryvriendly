@@ -21498,4 +21498,75 @@ footer#contact-us div.footer-sm-screen .copyright p {
 
       }
 
+/* visited link */
+#forgot-password:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+  }
+  
+  /* visited link */
+  #forgot-password:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+  }
+  
+  /* mouse over link */
+  #forgot-password:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+  }
+  #stay-logged-in{
+      float: left !important;
+      margin-top: 20px;
+      left: 0px !important;
+  }
+  
+  .termcond{
+    text-decoration: none;
+}
+.termcond:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+  }
+  
+  /* visited link */
+  .termcond:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+  }
+  
+  /* mouse over link */
+  .termcond:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+  }
+  
+  /* selected link */
+  .termcond:active {
+    text-decoration: none;
+
+    color: rgb(255, 255, 255);
+  }
+  .termsdiv{
+      width: 198px;
+     float: left;
+  }
+  .terms-forgot-div{
+    display: flex;
+    justify-content:space-between; 
+  }
+  .termsandconditions1 {
+    display: flex;
+    justify-content:left; 
+  }
+  .forgot-password1{
+    display: flex;
+    justify-content:right; 
+  }
 /*# sourceMappingURL=style.css.map */
