@@ -1738,7 +1738,6 @@ header nav.big-screen ul li.sign-up-for-beta a span:hover::after {
 
 /*_____________________________*/
 
-
 header nav.big-screen ul li.register {
     width: 200px;
     height: auto;
@@ -2528,7 +2527,7 @@ main div.bg-image {
 .region-arrow-icon {
     width: 13px;
     height: 13px;
-    margin-bottom:10px;
+    margin-bottom: 10px;
     border: 1px solid #ffffff;
     transform: rotate(315deg);
     margin-top: 9px;
@@ -7548,7 +7547,6 @@ footer#contact-us div.footer-big-screen .upper .who-we-are {
     align-items: flex-start;
 }
 
-
 footer#contact-us div.footer-big-screen .upper .who-we-are h2 {
     width: 100%;
     color: #440aa7;
@@ -7561,12 +7559,10 @@ footer#contact-us div.footer-big-screen .upper .who-we-are h2 {
     opacity: 0;
 }
 
-
 footer#contact-us div.footer-big-screen .upper .who-we-are h2.animate-to-top2 {
     -webkit-animation: animateToTop2 1s ease 0.3s forwards;
     animation: animateToTop2 1s ease 0.3s forwards;
 }
-
 
 footer#contact-us div.footer-big-screen .upper .who-we-are .items {
     width: 100%;
@@ -7587,7 +7583,6 @@ footer#contact-us div.footer-big-screen .upper .who-we-are .items {
     opacity: 0.7;
 }
 
-
 footer#contact-us div.footer-big-screen .upper .who-we-are .items a {
     text-decoration: none;
     width: auto;
@@ -7603,19 +7598,15 @@ footer#contact-us div.footer-big-screen .upper .who-we-are .items a {
     opacity: 0;
 }
 
-
 footer#contact-us div.footer-big-screen .upper .who-we-are .items a:nth-child(1).animate-to-top2 {
     -webkit-animation: animateToTop2 1s ease 0.3s forwards;
     animation: animateToTop2 1s ease 0.3s forwards;
 }
 
-
 footer#contact-us div.footer-big-screen .upper .who-we-are .items a:nth-child(2).animate-to-top2 {
     -webkit-animation: animateToTop2 1s ease 0.5s forwards;
     animation: animateToTop2 1s ease 0.5s forwards;
 }
-
-
 
 footer#contact-us div.footer-big-screen .upper .who-we-are .items a:nth-child(1) span::before {
     content: "Subscription";
@@ -7625,21 +7616,17 @@ footer#contact-us div.footer-big-screen .upper .who-we-are .items a:nth-child(1)
     content: "Subscription";
 }
 
-
 footer#contact-us div.footer-big-screen .upper .who-we-are .items a:nth-child(2) span::before {
     content: "Single event";
 }
-
 
 footer#contact-us div.footer-big-screen .upper .who-we-are .items a:nth-child(2) span::after {
     content: "Single event";
 }
 
-
 footer#contact-us div.footer-big-screen .upper .who-we-are .items a span {
     display: block;
 }
-
 
 footer#contact-us div.footer-big-screen .upper .who-we-are .items a span::before {
     position: absolute;
@@ -7658,12 +7645,10 @@ footer#contact-us div.footer-big-screen .upper .who-we-are .items a span::before
     transition: all 0.32s ease-out;
 }
 
-
 footer#contact-us div.footer-big-screen .upper .who-we-are .items a span:hover::before {
     -webkit-transform: rotateX(0deg) translateY(0px);
     transform: rotateX(0deg) translateY(0px);
 }
-
 
 footer#contact-us div.footer-big-screen .upper .who-we-are .items a span::after {
     position: absolute;
@@ -7681,13 +7666,10 @@ footer#contact-us div.footer-big-screen .upper .who-we-are .items a span::after 
     transition: all 0.32s ease-out;
 }
 
-
-
 footer#contact-us div.footer-big-screen .upper .who-we-are .items a span:hover::after {
     -webkit-transform: rotateX(90deg) translateY(-5px);
     transform: rotateX(90deg) translateY(-5px);
 }
-
 
 footer#contact-us div.footer-big-screen .upper .contact-us {
     width: 240px;
@@ -8150,7 +8132,6 @@ footer#contact-us div.footer-sm-screen .who-we-are {
     opacity: 0;
 }
 
-
 footer#contact-us div.footer-sm-screen .who-we-are.animate-to-top3 {
     -webkit-animation: animateToTop3 1s ease 0.7s forwards;
     animation: animateToTop3 1s ease 0.7s forwards;
@@ -8168,31 +8149,25 @@ footer#contact-us div.footer-sm-screen .who-we-are a {
     display: block;
 }
 
-
 footer#contact-us div.footer-sm-screen .who-we-are a:nth-child(1) span::before {
     content: "Subscription";
 }
-
 
 footer#contact-us div.footer-sm-screen .who-we-are a:nth-child(1) span::after {
     content: "Subscription";
 }
 
-
 footer#contact-us div.footer-sm-screen .who-we-are a:nth-child(2) span::before {
     content: "Single event";
 }
-
 
 footer#contact-us div.footer-sm-screen .who-we-are a:nth-child(2) span::after {
     content: "Single event";
 }
 
-
 footer#contact-us div.footer-sm-screen .who-we-are a span {
     display: block;
 }
-
 
 footer#contact-us div.footer-sm-screen .who-we-are a span::before {
     position: absolute;
@@ -8211,12 +8186,10 @@ footer#contact-us div.footer-sm-screen .who-we-are a span::before {
     transition: all 0.32s ease-out;
 }
 
-
 footer#contact-us div.footer-sm-screen .who-we-are a span:hover::before {
     -webkit-transform: rotateX(0deg) translateY(0px);
     transform: rotateX(0deg) translateY(0px);
 }
-
 
 footer#contact-us div.footer-sm-screen .who-we-are a span::after {
     position: absolute;
@@ -8238,7 +8211,6 @@ footer#contact-us div.footer-sm-screen .who-we-are a span:hover::after {
     -webkit-transform: rotateX(90deg) translateY(-5px);
     transform: rotateX(90deg) translateY(-5px);
 }
-
 
 footer#contact-us div.footer-sm-screen .contact-us {
     display: -webkit-box;
@@ -20189,7 +20161,7 @@ footer#contact-us div.footer-sm-screen .copyright p {
     }
     /*Checbox section Start */
 
-        /*Checbox section End */
+    /*Checbox section End */
 
     /* DLS SECTION START */
     section#dls {
@@ -21156,88 +21128,94 @@ footer#contact-us div.footer-sm-screen .copyright p {
     /*}*/
     header .pattern-sm-screen {
         display: none;
-    }  .termsdiv{
+    }
+    .termsdiv {
         margin-right: 500px;
-      
     }
 }
 
 /* MEDIA QUERIES END */
 
-        .termcond{
-            text-decoration: none;
-        }
-        .termcond:link {
-            color: rgb(255, 255, 255);
-            text-decoration: none;
+.termcond {
+    text-decoration: none;
+}
+.termcond:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
 
-          }
-          
-          /* visited link */
-          .termcond:visited {
-            color: rgb(255, 255, 255);
-            text-decoration: none;
+/* visited link */
+.termcond:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
 
-          }
-          
-          /* mouse over link */
-          .termcond:hover {
-            color: rgb(255, 255, 255);
-            text-decoration: none;
+/* mouse over link */
+.termcond:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
 
-          }
-          
-          /* selected link */
-          .termcond:active {
-            text-decoration: none;
+/* selected link */
+.termcond:active {
+    text-decoration: none;
 
-            color: rgb(255, 255, 255);
-          }
-          .termsdiv{
-              width: 198px;
-              margin-top: 30px;
-            
-          }
-         .device-value{
-             color: white;
-         }
-         .region-value{
-             color: white;
-         }
-        /*# sourceMappingURL=style.css.map */
+    color: rgb(255, 255, 255);
+}
+.termsdiv {
+    width: 198px;
+    margin-top: 30px;
+}
+.device-value {
+    color: white;
+}
+.region-value {
+    color: white;
+}
+/*# sourceMappingURL=style.css.map */
 
-        .btn{
-            background-color: #4d3c65;
-            border-radius: 4px;
-            border: none;
-            margin: 10px;
-            color: white;
-            font-size: 16px;
-            padding: 14px 40px;
-        }
-        /* .btn-primary{
+.btn {
+    background-color: #4d3c65;
+    border-radius: 4px;
+    border: none;
+    margin: 10px;
+    color: white;
+    font-size: 16px;
+    padding: 14px 40px;
+}
+/* .btn-primary{
             background-color: #4a58f3;
             border: none;
         } */
-        .btn-check:active+.btn-primary, .btn-check:checked+.btn-primary, .btn-primary.active, .btn-primary:active, .show>.btn-primary.dropdown-toggle{
-            background-color: #4a58f3;
-            border: none;
-        }
-        .btn:hover{
-            background-color:#4a58f3 ;
-            border: none;
-        }
-        .btn:active{
-            background-color:#4a58f3 ;
-border: none;
-        }
+.btn-check:active + .btn-primary,
+.btn-check:checked + .btn-primary,
+.btn-primary.active,
+.btn-primary:active,
+.show > .btn-primary.dropdown-toggle {
+    background-color: #4a58f3;
+    border: none;
+}
+.btn:hover {
+    background-color: #4a58f3;
+    border: none;
+}
+.btn:active {
+    background-color: #4a58f3;
+    border: none;
+}
 
-        .btn-check:checked{
-            background-color:#4a58f3 ;
+.btn-check:checked {
+    background-color: #4a58f3;
+}
+.btn-check:active + .btn-primary,
+.btn-check:checked + .btn-primary,
+.btn-primary.active,
+.btn-primary:active,
+.show > .btn-primary.dropdown-toggle {
+    background-color: #4a58f3 !important;
+    border: none;
+}
 
-        }
-        .btn-check:active+.btn-primary, .btn-check:checked+.btn-primary, .btn-primary.active, .btn-primary:active, .show>.btn-primary.dropdown-toggle {
-            background-color: #4a58f3 !important;
-            border: none;
-        }
-     
+.backRegister {
+    margin-top: 40px;
+}
