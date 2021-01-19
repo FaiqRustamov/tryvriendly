@@ -6521,11 +6521,11 @@ footer#contact-us div.footer-big-screen .upper .our-company .items a:nth-child(4
 }
 
 footer#contact-us div.footer-big-screen .upper .our-company .items a:nth-child(1) span::before {
-    content: "About Us";
+    content: "Our Story";
 }
 
 footer#contact-us div.footer-big-screen .upper .our-company .items a:nth-child(1) span::after {
-    content: "About Us";
+    content: "Our Story";
 }
 
 footer#contact-us div.footer-big-screen .upper .our-company .items a:nth-child(2) span::before {
@@ -6833,19 +6833,19 @@ footer#contact-us div.footer-big-screen .upper .pricing .items a:nth-child(2).an
 }
 
 footer#contact-us div.footer-big-screen .upper .pricing .items a:nth-child(1) span::before {
-    content: "Subscriptions";
+    content: "Sign up for Beta";
 }
 
 footer#contact-us div.footer-big-screen .upper .pricing .items a:nth-child(1) span::after {
-    content: "Subscriptions";
+    content: "Sign up for Beta";
 }
 
 footer#contact-us div.footer-big-screen .upper .pricing .items a:nth-child(2) span::before {
-    content: "Single event";
+    content: "Upcoming Session";
 }
 
 footer#contact-us div.footer-big-screen .upper .pricing .items a:nth-child(2) span::after {
-    content: "Single event";
+    content: "Upcoming Session";
 }
 
 footer#contact-us div.footer-big-screen .upper .pricing .items a span {
@@ -6949,6 +6949,7 @@ footer#contact-us div.footer-big-screen .upper .contact-us .items {
 footer#contact-us div.footer-big-screen .upper .contact-us .items a#mail-to {
     text-decoration: none;
     color: #fffefc;
+    height: 1rem;
     margin-bottom: 8px;
     -webkit-transform: translateY(5px);
     transform: translateY(5px);
@@ -7148,28 +7149,36 @@ footer#contact-us div.footer-sm-screen .our-company a {
 }
 
 footer#contact-us div.footer-sm-screen .our-company a:nth-child(1) span::before {
-    content: "About Us";
+    content: "Our Story";
 }
 
 footer#contact-us div.footer-sm-screen .our-company a:nth-child(1) span::after {
-    content: "About Us";
+    content: "Our Story";
 }
 
 footer#contact-us div.footer-sm-screen .our-company a:nth-child(2) span::before {
-    content: "Competitive Advantages";
+    content: "Advantages";
 }
 
 footer#contact-us div.footer-sm-screen .our-company a:nth-child(2) span::after {
-    content: "Competitive Advantages";
+    content: "Advantages";
 }
 
 footer#contact-us div.footer-sm-screen .our-company a:nth-child(3) span::before {
-    content: "Features";
+    content: "Team";
 }
 
 footer#contact-us div.footer-sm-screen .our-company a:nth-child(3) span::after {
-    content: "Features";
+    content: "Team";
 }
+footer#contact-us div.footer-sm-screen .our-company a:nth-child(4) span::before {
+    content: "Partners";
+}
+
+footer#contact-us div.footer-sm-screen .our-company a:nth-child(4) span::after {
+    content: "Partners";
+}
+
 
 footer#contact-us div.footer-sm-screen .our-company a span {
     display: block;
@@ -7368,19 +7377,19 @@ footer#contact-us div.footer-sm-screen .pricing a {
 }
 
 footer#contact-us div.footer-sm-screen .pricing a:nth-child(1) span::before {
-    content: "Subscriptions";
+    content: "Sign up for Beta";
 }
 
 footer#contact-us div.footer-sm-screen .pricing a:nth-child(1) span::after {
-    content: "Subscriptions";
+    content: "Sign up for Beta";
 }
 
 footer#contact-us div.footer-sm-screen .pricing a:nth-child(2) span::before {
-    content: "Single event";
+    content: "Upcoming Session";
 }
 
 footer#contact-us div.footer-sm-screen .pricing a:nth-child(2) span::after {
-    content: "Single event";
+    content: "Upcoming Session";
 }
 
 footer#contact-us div.footer-sm-screen .pricing a span {

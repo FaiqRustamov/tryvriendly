@@ -2338,6 +2338,9 @@ main div.bg-image {
     .coming-soon h1 {
         font-size: 4em;
     }
+    .contact-us p {
+        margin-bottom: 0 !important;
+    }
 }
 
 @media only screen and (max-width: 700px) {
@@ -2349,6 +2352,12 @@ main div.bg-image {
 @media only screen and (max-width: 510px) {
     .coming-soon h1 {
         font-size: 2em;
+    }
+    .contact-us p {
+        margin-bottom: 0 !important;
+    }
+    .our-company:nth-child(3){
+        padding-right: 1px !important;
     }
 }
 
@@ -7298,11 +7307,11 @@ footer#contact-us div.footer-big-screen .upper .our-company .items a:nth-child(4
 }
 
 footer#contact-us div.footer-big-screen .upper .our-company .items a:nth-child(1) span::before {
-    content: "About Us";
+    content: "Our story";
 }
 
 footer#contact-us div.footer-big-screen .upper .our-company .items a:nth-child(1) span::after {
-    content: "About Us";
+    content: "Our story";
 }
 
 footer#contact-us div.footer-big-screen .upper .our-company .items a:nth-child(2) span::before {
@@ -7618,21 +7627,21 @@ footer#contact-us div.footer-big-screen .upper .who-we-are .items a:nth-child(2)
 
 
 footer#contact-us div.footer-big-screen .upper .who-we-are .items a:nth-child(1) span::before {
-    content: "Subscription";
+    content: "Sign up for Beta";
 }
 
 footer#contact-us div.footer-big-screen .upper .who-we-are .items a:nth-child(1) span::after {
-    content: "Subscription";
+    content: "Sign up for Beta";
 }
 
 
 footer#contact-us div.footer-big-screen .upper .who-we-are .items a:nth-child(2) span::before {
-    content: "Single event";
+    content: "Upcoming Session";
 }
 
 
 footer#contact-us div.footer-big-screen .upper .who-we-are .items a:nth-child(2) span::after {
-    content: "Single event";
+    content: "Upcoming Session";
 }
 
 
@@ -7743,7 +7752,8 @@ footer#contact-us div.footer-big-screen .upper .contact-us .items {
 footer#contact-us div.footer-big-screen .upper .contact-us .items a#mail-to {
     text-decoration: none;
     color: #fffefc;
-    margin-bottom: 8px;
+    margin-bottom: 1px ;
+    height: 1rem;
     -webkit-transform: translateY(5px);
     transform: translateY(5px);
     opacity: 0;
@@ -7942,11 +7952,11 @@ footer#contact-us div.footer-sm-screen .our-company a {
 }
 
 footer#contact-us div.footer-sm-screen .our-company a:nth-child(1) span::before {
-    content: "About Us";
+    content: "Our story";
 }
 
 footer#contact-us div.footer-sm-screen .our-company a:nth-child(1) span::after {
-    content: "About Us";
+    content: "Our story";
 }
 
 footer#contact-us div.footer-sm-screen .our-company a:nth-child(2) span::before {
@@ -8170,22 +8180,22 @@ footer#contact-us div.footer-sm-screen .who-we-are a {
 
 
 footer#contact-us div.footer-sm-screen .who-we-are a:nth-child(1) span::before {
-    content: "Subscription";
+    content: "Sign up for Beta";
 }
 
 
 footer#contact-us div.footer-sm-screen .who-we-are a:nth-child(1) span::after {
-    content: "Subscription";
+    content: "Sign up for Beta";
 }
 
 
 footer#contact-us div.footer-sm-screen .who-we-are a:nth-child(2) span::before {
-    content: "Single event";
+    content: "Upcoming Session";
 }
 
 
 footer#contact-us div.footer-sm-screen .who-we-are a:nth-child(2) span::after {
-    content: "Single event";
+    content: "Upcoming Session";
 }
 
 

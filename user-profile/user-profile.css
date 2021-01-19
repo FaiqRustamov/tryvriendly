@@ -7609,19 +7609,19 @@ footer#contact-us div.footer-big-screen .upper .who-we-are .items a:nth-child(2)
 }
 
 footer#contact-us div.footer-big-screen .upper .who-we-are .items a:nth-child(1) span::before {
-    content: "Sign up for Beta";
+    content: "Subscription";
 }
 
 footer#contact-us div.footer-big-screen .upper .who-we-are .items a:nth-child(1) span::after {
-    content: "Sign up for Beta";
+    content: "Subscription";
 }
 
 footer#contact-us div.footer-big-screen .upper .who-we-are .items a:nth-child(2) span::before {
-    content: "Upcoming Session";
+    content: "Single event";
 }
 
 footer#contact-us div.footer-big-screen .upper .who-we-are .items a:nth-child(2) span::after {
-    content: "Upcoming Session";
+    content: "Single event";
 }
 
 footer#contact-us div.footer-big-screen .upper .who-we-are .items a span {
@@ -7742,7 +7742,7 @@ footer#contact-us div.footer-big-screen .upper .contact-us .items a#mail-to p {
     font-size: 0.9rem;
 }
 
-/* footer#contact-us div.footer-big-screen .upper .contact-us .items p#address {
+footer#contact-us div.footer-big-screen .upper .contact-us .items p#address {
     color: #fffefc;
     letter-spacing: 0.5px;
     font-weight: 300;
@@ -7752,12 +7752,12 @@ footer#contact-us div.footer-big-screen .upper .contact-us .items a#mail-to p {
     -webkit-transform: translateY(5px);
     transform: translateY(5px);
     opacity: 0;
-} */
-/* 
+}
+
 footer#contact-us div.footer-big-screen .upper .contact-us .items p#address.animate-to-top2 {
     -webkit-animation: animateToTop2 1s ease 0.5s forwards;
     animation: animateToTop2 1s ease 0.5s forwards;
-} */
+}
 
 footer#contact-us div.footer-big-screen .upper .contact-us .items p#phone {
     color: #fffefc;
@@ -8150,19 +8150,19 @@ footer#contact-us div.footer-sm-screen .who-we-are a {
 }
 
 footer#contact-us div.footer-sm-screen .who-we-are a:nth-child(1) span::before {
-    content: "Sign up for Beta";
+    content: "Subscription";
 }
 
 footer#contact-us div.footer-sm-screen .who-we-are a:nth-child(1) span::after {
-    content: "Sign up for Beta";
+    content: "Subscription";
 }
 
 footer#contact-us div.footer-sm-screen .who-we-are a:nth-child(2) span::before {
-    content: "Upcoming Session";
+    content: "Single event";
 }
 
 footer#contact-us div.footer-sm-screen .who-we-are a:nth-child(2) span::after {
-    content: "Upcoming Session";
+    content: "Single event";
 }
 
 footer#contact-us div.footer-sm-screen .who-we-are a span {
@@ -8303,7 +8303,7 @@ footer#contact-us div.footer-sm-screen .contact-us .links a:hover {
     opacity: 1;
 }
 
-/* footer#contact-us div.footer-sm-screen .address {
+footer#contact-us div.footer-sm-screen .address {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -8323,21 +8323,21 @@ footer#contact-us div.footer-sm-screen .contact-us .links a:hover {
     -webkit-transform: translateY(5px);
     transform: translateY(5px);
     opacity: 0;
-} */
+}
 
-/* footer#contact-us div.footer-sm-screen .address.animate-to-top4 {
+footer#contact-us div.footer-sm-screen .address.animate-to-top4 {
     -webkit-animation: animateToTop4 1s ease 1.1s forwards;
     animation: animateToTop4 1s ease 1.1s forwards;
-} */
+}
 
-/* footer#contact-us div.footer-sm-screen .address p {
+footer#contact-us div.footer-sm-screen .address p {
     color: #fffefc;
     letter-spacing: 0.3px;
     font-weight: 300;
     line-height: 31px;
     font-size: 0.95rem;
     text-align: center;
-} */
+}
 
 footer#contact-us div.footer-sm-screen .phone {
     display: -webkit-box;
@@ -20750,16 +20750,16 @@ footer#contact-us div.footer-sm-screen .copyright p {
         font-size: 0.8rem;
     }
 
-    /* footer#contact-us div.footer-sm-screen .address {
+    footer#contact-us div.footer-sm-screen .address {
         margin-bottom: 20px;
         width: 90%;
-    } */
+    }
 
-    /* footer#contact-us div.footer-sm-screen .address p {
+    footer#contact-us div.footer-sm-screen .address p {
         letter-spacing: 0.9px;
         line-height: 21px;
         font-size: 0.8rem;
-    } */
+    }
 
     footer#contact-us div.footer-sm-screen .copyright {
         margin-bottom: 20px;
@@ -21074,7 +21074,7 @@ footer#contact-us div.footer-sm-screen .copyright p {
         font-size: 0.8rem;
     }
 
-    /* footer#contact-us div.footer-sm-screen .address {
+    footer#contact-us div.footer-sm-screen .address {
         margin-bottom: 20px;
         width: 90%;
     }
@@ -21083,7 +21083,7 @@ footer#contact-us div.footer-sm-screen .copyright p {
         letter-spacing: 0.9px;
         line-height: 21px;
         font-size: 0.8rem;
-    } */
+    }
 
     footer#contact-us div.footer-sm-screen .copyright {
         margin-bottom: 20px;

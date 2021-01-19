@@ -221,29 +221,33 @@
                        <br>
                        <div>
                         <p class="user-type-title">Select your usertype</p>
-                        <ul class="usertypes" id="user_type">
-                        <li>
-                            <input type="checkbox" class="usertypes btn-check" id="participant" autocomplete="off" />
-                            <label class="btn btn-primary" for="participant">Participant</label>
-                        </li>
-                        <li> <input type="checkbox" class="usertypes btn-check" id="startup"  autocomplete="off" />
-                            <label class="btn btn-primary" for="startup">Startup</label>
+                        <div class="d-flex">  <ul class="usertypes" id="user_type">
+                            <li>
+                                <input type="checkbox" class="usertypes btn-check" id="participant" autocomplete="off" />
+                                <label class="btn btn-primary" for="participant">Participant</label>
+                            </li>
+                           
+                            <li> <input type="checkbox" class="usertypes btn-check" id="startup"  autocomplete="off" />
+                                <label class="btn btn-primary" for="startup">Startup</label>
+    
+                            </li>
+                            <li> <input type="checkbox" class="usertypes btn-check" id="investor" autocomplete="off" />
+                            <label class="btn btn-primary" for="investor">Investor</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="usertypes btn-check" id="event-organizer"  autocomplete="off" />
+                                <label class="btn btn-primary" for="event-organizer">Event Organizer</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" class="usertypes btn-check" id="adviser" autocomplete="off" />
+                                <label class="btn btn-primary" for="adviser">Adviser</label>
+                            </li>
+                            </ul>
+                          
+                            
 
-                        </li>
-                        <li> <input type="checkbox" class="usertypes btn-check" id="investor" autocomplete="off" />
-                        <label class="btn btn-primary" for="investor">Investor</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" class="usertypes btn-check" id="event-organizer"  autocomplete="off" />
-                            <label class="btn btn-primary" for="event-organizer">Event Organizer</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" class="usertypes btn-check" id="adviser" autocomplete="off" />
-                            <label class="btn btn-primary" for="adviser">Adviser</label>
-                        </li>
-                        </ul>
+                        </div>
                       
-                        
                        
                         
                        
@@ -295,10 +299,10 @@
                 </div>
             </div>
             <div class="who-we-are">
-                <h2>Pricing</h2>
+                <h2>Beta and Upcoming </h2>
                 <div class="items">
-                    <a rel="noreferrer" href="index.html"><span>Subscription</span></a>
-                    <a rel="noreferrer" href="index.html"><span>Single event</span></a>
+                    <a rel="noreferrer" href="index.html"><span>Sign up for Beta</span></a>
+                    <a rel="noreferrer" href="index.html"><span>Upcoming Session</span></a>
                 </div>
             </div>
             <div class="contact-us">
@@ -307,6 +311,8 @@
                     <a rel="noreferrer" id="mail-to" href="mailto:info@vriendly.co">
                         <p>info@vriendly.co</p>
                     </a>
+                    <p id="address"></p>
+
 <!--                    <p id="phone">+16174190727</p>-->
                     <div class="links">
                         <a rel="noreferrer" href="https://www.linkedin.com/company/vriendly1/" target="_blank"><img
@@ -378,6 +384,22 @@
 
 
 <div class="tracker"></div>
+
+
+<!-- Register usertype checking  start -->
+<script>
+// function addBootstrapClass() {
+//   var user_type=document.getElementsByName('user_type').value;
+//   if(user_type.checked==true){
+//    user_type.classList.add("btn-primary");
+//   }
+//   else{
+//       user_type.classList.add("btn");
+
+//   }
+// }
+</script>
+<!--Register usertype checking  end  -->
 
 <script src="register/register.js"></script>
 <!-- BOOTSTRAP SCRIPT -->
