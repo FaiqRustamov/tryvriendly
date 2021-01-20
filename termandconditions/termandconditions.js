@@ -169,24 +169,24 @@ const navBigScreen = document.querySelector("body > header > nav.big-screen");
 const menuHeadingOurCompany = document.querySelector("body > header > nav.big-screen > ul > li.our-company > p");
 const menuHeadingWhatWeDo = document.querySelector("body > header > nav.big-screen > ul > li.what-we-do > p");
 const menuHeadingOrderVriendly = document.querySelector("body > header > nav.big-screen > ul > li.order-vriendly > p");
-const menuHeadingWhoWeAre = document.querySelector("body > header > nav.big-screen > ul > li.who-we-are > p");
+// const menuHeadingWhoWeAre = document.querySelector("body > header > nav.big-screen > ul > li.who-we-are > p");
 const menuHeadingUpcoming = document.querySelector("body > header > nav.big-screen > ul > li.upcoming");
 const ourCompany = document.querySelector("body > header > nav.big-screen > ul > li.our-company > div.items");
 const whatWeDo = document.querySelector("body > header > nav.big-screen > ul > li.what-we-do > div.items");
 const orderVriendly = document.querySelector("body > header > nav.big-screen > ul > li.order-vriendly > div.items");
-const whoWeAre = document.querySelector("body > header > nav.big-screen > ul > li.who-we-are > div.items");
+// const whoWeAre = document.querySelector("body > header > nav.big-screen > ul > li.who-we-are > div.items");
 const ourCompanyItems = document.querySelectorAll("body > header > nav.big-screen > ul > li.our-company > div > a");
 const whatWeDoItems = document.querySelectorAll("body > header > nav.big-screen > ul > li.what-we-do > div > a");
 const orderVriendlyItems = document.querySelectorAll("body > header > nav.big-screen > ul > li.order-vriendly > div > a");
-const whoWeAreItems = document.querySelectorAll("body > header > nav.big-screen > ul > li.who-we-are > div > a");
+// const whoWeAreItems = document.querySelectorAll("body > header > nav.big-screen > ul > li.who-we-are > div > a");
 menuHeadingOurCompany.addEventListener('mouseenter', openOurCompany);
 menuHeadingWhatWeDo.addEventListener('mouseenter', openWhatWeDo);
 menuHeadingOrderVriendly.addEventListener('mouseenter', openOrderVriendly);
-menuHeadingWhoWeAre.addEventListener('mouseenter', openWhoWeAre);
+// menuHeadingWhoWeAre.addEventListener('mouseenter', openWhoWeAre);
 menuHeadingUpcoming.addEventListener('mouseenter', closeOthers);
 ourCompany.addEventListener('mouseleave', closeOurCompany);
 whatWeDo.addEventListener('mouseleave', closeWhatWeDo);
-whoWeAre.addEventListener('mouseleave', closeWhoWeAre);
+// whoWeAre.addEventListener('mouseleave', closeWhoWeAre);
 navBigScreen.addEventListener('mouseenter', () => {
         if (
             document.body.scrollTop < 80 ||
@@ -220,7 +220,7 @@ function showBackground() {
 function hideBackground() {
     closeOurCompany();
     closeWhatWeDo();
-    closeWhoWeAre();
+    // closeWhoWeAre();
     closeOrderVriendly();
     setTimeout(() => {
         document.querySelector(".header-bg").style.opacity = 0;
@@ -232,7 +232,7 @@ function hideBackground() {
 
 function openOurCompany() {
     closeWhatWeDo();
-    closeWhoWeAre();
+    // closeWhoWeAre();
     closeOrderVriendly();
     let el = menuHeadingOurCompany.childNodes[0];
     el.classList.add('three-d-rotate');
@@ -245,7 +245,7 @@ function openOurCompany() {
 
 function openWhatWeDo() {
     closeOurCompany();
-    closeWhoWeAre();
+    // closeWhoWeAre();
     closeOrderVriendly();
     let el = menuHeadingWhatWeDo.childNodes[0];
     el.classList.add('three-d-rotate');
@@ -258,7 +258,7 @@ function openWhatWeDo() {
 
 function openOrderVriendly() {
     closeOurCompany();
-    closeWhoWeAre();
+    // closeWhoWeAre();
     closeWhatWeDo();
     let el = menuHeadingOrderVriendly.childNodes[0];
     el.classList.add('three-d-rotate');
@@ -269,23 +269,23 @@ function openOrderVriendly() {
     }, 300);
 }
 
-function openWhoWeAre() {
-    closeOurCompany();
-    closeWhatWeDo();
-    closeOrderVriendly();
-    let el = menuHeadingWhoWeAre.childNodes[0];
-    el.classList.add('three-d-rotate');
-    setTimeout(() => {
-        whoWeAreItems.forEach(item => {
-            item.classList.add('fade-down');
-        });
-    }, 300);
-}
+// function openWhoWeAre() {
+//     closeOurCompany();
+//     closeWhatWeDo();
+//     closeOrderVriendly();
+//     let el = menuHeadingWhoWeAre.childNodes[0];
+//     el.classList.add('three-d-rotate');
+//     setTimeout(() => {
+//         whoWeAreItems.forEach(item => {
+//             item.classList.add('fade-down');
+//         });
+//     }, 300);
+// }
 
 function closeOthers() {
     closeOurCompany();
     closeWhatWeDo();
-    closeWhoWeAre();
+    // closeWhoWeAre();
     closeOrderVriendly();
 }
 
@@ -319,15 +319,15 @@ function closeOrderVriendly() {
     }, 10);
 }
 
-function closeWhoWeAre() {
-    let el = menuHeadingWhoWeAre.childNodes[0];
-    el.classList.remove('three-d-rotate');
-    setTimeout(() => {
-        whoWeAreItems.forEach(item => {
-            item.classList.remove('fade-down');
-        });
-    }, 10);
-}
+// function closeWhoWeAre() {
+//     let el = menuHeadingWhoWeAre.childNodes[0];
+//     el.classList.remove('three-d-rotate');
+//     setTimeout(() => {
+//         whoWeAreItems.forEach(item => {
+//             item.classList.remove('fade-down');
+//         });
+//     }, 10);
+// }
 
 function scrollFunction() {
     if (

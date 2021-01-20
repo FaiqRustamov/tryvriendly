@@ -1654,7 +1654,6 @@ header nav.big-screen ul li.upcoming a span:hover::after {
 }
 
 /*_____________________________*/
-
 header nav.big-screen ul li.sign-up-for-beta {
     width: 200px;
     height: auto;
@@ -1739,6 +1738,7 @@ header nav.big-screen ul li.sign-up-for-beta a span:hover::after {
 }
 
 /*_____________________________*/
+
 
 header nav.big-screen ul li.register {
     width: 200px;
@@ -2313,7 +2313,7 @@ main div.bg-image {
 }
 
 
-.termandconditions-container {
+.login-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -2335,8 +2335,8 @@ main div.bg-image {
     transition: all 0.4s ease-in-out;
 }
 
-.termandconditions-title {
-    text-transform: uppercase;
+.login-title {
+    /* text-transform: uppercase; */
     font-weight: bold;
     font-size: 32px;
     line-height: 44px;
@@ -2374,19 +2374,19 @@ main div.bg-image {
 
 
 .form-inputs::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 15px;
     font-family: "Open Sans", sans-serif; /* Firefox */ /* Firefox */
 }
 
 .form-inputs:-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 15px;
     font-family: "Open Sans", sans-serif; /* Firefox */
 }
 
 .form-inputs::-ms-input-placeholder { /* Microsoft Edge */
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 15px;
     font-family: "Open Sans", sans-serif; /* Firefox */
 }
@@ -2580,7 +2580,7 @@ textarea:focus {
 /*form submit*/
 
 .form-submit {
-    width: 80%;
+    width: 100%;
     height: 52px;
     border: 2px solid #fff;
     margin-top: 37px;
@@ -2615,7 +2615,7 @@ textarea:focus {
 }
 
 @media only screen and (max-width: 550px) {
-    .termandconditions-container {
+    .login-container {
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -2624,6 +2624,7 @@ textarea:focus {
     .register-title {
         font-size: 26px;
     }
+    
 }
 
 @media only screen and (max-width: 425px) {
@@ -6842,8 +6843,6 @@ footer#contact-us div.footer-big-screen .upper .our-company .items a:nth-child(4
     -webkit-animation: animateToTop2 1s ease .9s forwards;
     animation: animateToTop2 1s ease .9s forwards;
 }
-
-
 footer#contact-us div.footer-big-screen .upper .our-company .items a:nth-child(1) span::before {
     content: "Our Story";
 }
@@ -6867,6 +6866,7 @@ footer#contact-us div.footer-big-screen .upper .our-company .items a:nth-child(3
 footer#contact-us div.footer-big-screen .upper .our-company .items a:nth-child(3) span::after {
     content: "Team";
 }
+
 footer#contact-us div.footer-big-screen .upper .our-company .items a:nth-child(4) span::before {
     content: "Partners";
 }
@@ -6874,7 +6874,6 @@ footer#contact-us div.footer-big-screen .upper .our-company .items a:nth-child(4
 footer#contact-us div.footer-big-screen .upper .our-company .items a:nth-child(4) span::after {
     content: "Partners";
 }
-
 footer#contact-us div.footer-big-screen .upper .our-company .items a span {
     display: block;
 }
@@ -7007,11 +7006,11 @@ footer#contact-us div.footer-big-screen .upper .what-we-do .items a:nth-child(3)
 }
 
 footer#contact-us div.footer-big-screen .upper .what-we-do .items a:nth-child(1) span::before {
-    content: "Milestones";
+    content: "Roadmap";
 }
 
 footer#contact-us div.footer-big-screen .upper .what-we-do .items a:nth-child(1) span::after {
-    content: "Milestones";
+    content: "Roadmap";
 }
 
 footer#contact-us div.footer-big-screen .upper .what-we-do .items a:nth-child(2) span::before {
@@ -7273,7 +7272,6 @@ footer#contact-us div.footer-big-screen .upper .contact-us .items {
 footer#contact-us div.footer-big-screen .upper .contact-us .items a#mail-to {
     text-decoration: none;
     color: #fffefc;
-    height: 1rem !important;
     margin-bottom: 8px;
     -webkit-transform: translateY(5px);
     transform: translateY(5px);
@@ -7495,13 +7493,7 @@ footer#contact-us div.footer-sm-screen .our-company a:nth-child(3) span::before 
 footer#contact-us div.footer-sm-screen .our-company a:nth-child(3) span::after {
     content: "Team";
 }
-footer#contact-us div.footer-sm-screen .our-company a:nth-child(4) span::before {
-    content: "Partners";
-}
 
-footer#contact-us div.footer-sm-screen .our-company a:nth-child(4) span::after {
-    content: "Partners";
-}
 footer#contact-us div.footer-sm-screen .our-company a span {
     display: block;
 }
@@ -7589,11 +7581,11 @@ footer#contact-us div.footer-sm-screen .what-we-do a {
 }
 
 footer#contact-us div.footer-sm-screen .what-we-do a:nth-child(1) span::before {
-    content: "Milestones";
+    content: "Roadmap";
 }
 
 footer#contact-us div.footer-sm-screen .what-we-do a:nth-child(1) span::after {
-    content: "Milestones";
+    content: "Roadmap";
 }
 
 footer#contact-us div.footer-sm-screen .what-we-do a:nth-child(2) span::before {
@@ -21462,20 +21454,7 @@ footer#contact-us div.footer-sm-screen .copyright p {
 @media only screen and (min-width: 600px) {
     section#home .home-cta-button {
         display: none;
-        
     }
-    .terms{
-       padding:90px;
-        overflow: auto;
-    }
-  
-}
-@media only screen and (min-width: 320px) {
-    .terms{
-       
-        overflow: auto;
-    }
-  
 }
 
 /* 800 */
@@ -21489,11 +21468,6 @@ footer#contact-us div.footer-sm-screen .copyright p {
         display: -ms-flexbox;
         display: flex;
     }
-    .terms{
-       
-        overflow: auto;
-    }
-  
 }
 
 /* 1000 */
@@ -21501,14 +21475,7 @@ footer#contact-us div.footer-sm-screen .copyright p {
     header nav.small-screen {
         display: none;
     }
-    .terms{
-        padding-left: 30px;
-        padding-right: 40px;
-        width:552px;
-        height: 532px;
-        overflow: auto;
-        box-sizing: border-box;
-    }
+
     /*header .nav-button {*/
     /*    display: none;*/
     /*}*/
@@ -21519,25 +21486,114 @@ footer#contact-us div.footer-sm-screen .copyright p {
 
 /* MEDIA QUERIES END */
 
-::-webkit-scrollbar {
-    margin-left: 10px;
-    width: 5px;
-    height: 624px;
-    left: 1009px;
-    top: 394px;
-    
-    background: rgba(255, 255, 255, 0.08);
-    backdrop-filter: blur(36px);
-  }
+    #registerDirection{
+      margin-top: 36px;
+    }
+    #registerDirection:link {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
 
-  ::-webkit-scrollbar-thumb {
-    width: 9px;
-    height: 50px;
-    left: 1007px;
-    top: 425px;
-    
-    background: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(36px);
+      }
+      
+      /* visited link */
+      #registerDirection:visited {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+
+      }
+      
+      /* mouse over link */
+      #registerDirection:hover {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+
+      }
+
+/* visited link */
+#forgot-password:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
   }
   
+  /* visited link */
+  #forgot-password:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+  }
+  
+  /* mouse over link */
+  #forgot-password:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+  }
+  #stay-logged-in{
+      float: left !important;
+      margin-top: 20px;
+      left: 0px !important;
+  }
+  
+  .termcond{
+    text-decoration: none;
+}
+.termcond:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+  }
+  
+  /* visited link */
+  .termcond:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+  }
+  
+  /* mouse over link */
+  .termcond:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+  }
+  
+  /* selected link */
+  .termcond:active {
+    text-decoration: none;
+
+    color: rgb(255, 255, 255);
+  }
+  .termsdiv{
+      width: 198px;
+     float: left;
+  }
+  .termsdiv2{
+    width: 150px;
+   float: right !important;
+   right: 0;
+}
+  .terms-forgot-div{
+    display: flex;
+    justify-content:space-between; 
+  }
+  .termsandconditions1 {
+    display: flex;
+    justify-content:left; 
+  }
+  .forgot-password1{
+    
+  }
 /*# sourceMappingURL=style.css.map */
+.term-forgot-container{
+width: 100%;
+height: 52px;
+margin-top: 37px;
+font-size: 18px;
+line-height: 21px;
+font-family: "Open Sans", sans-serif;
+background-color: transparent;
+color: #fff;
+cursor: pointer;
+transition: 3s;
+}

@@ -2337,6 +2337,9 @@ main div.bg-image {
     .coming-soon h1 {
         font-size: 4em;
     }
+    .contact-us p {
+        margin-bottom: 0px;
+    }
 }
 
 @media only screen and (max-width: 700px) {
@@ -2348,6 +2351,9 @@ main div.bg-image {
 @media only screen and (max-width: 510px) {
     .coming-soon h1 {
         font-size: 2em;
+    }
+    .contact-us p {
+        margin-bottom: 0px;
     }
 }
 
@@ -7725,7 +7731,8 @@ footer#contact-us div.footer-big-screen .upper .contact-us .items {
 footer#contact-us div.footer-big-screen .upper .contact-us .items a#mail-to {
     text-decoration: none;
     color: #fffefc;
-    margin-bottom: 8px;
+    height: 1rem;
+    margin-bottom: 1px ! important;
     -webkit-transform: translateY(5px);
     transform: translateY(5px);
     opacity: 0;
@@ -21245,3 +21252,7 @@ footer#contact-us div.footer-sm-screen .copyright p {
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 
 } */
+.error-class{
+    background-color: #6d2359;
+    opacity: 0.5;
+}

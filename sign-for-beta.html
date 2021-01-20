@@ -13,10 +13,15 @@
     <!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
             integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-
+    
     <!-- FONT -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600i,700&display=swap" rel="stylesheet">
 
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- FONT AWESOME  -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
     <!-- OWL CAROUSEL -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
@@ -24,7 +29,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
             integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="login/login.css"/>
+    <link rel="stylesheet" href="./congratulation/congratulation-page.css"/>
     <title>Vriendly</title>
 </head>
 <body>
@@ -40,6 +45,9 @@
 <!-- LOADING ENDS-->
 
 
+
+
+
 <!-- HEADER START -->
 <div class="header-bg">
     <img src="images/header-bg-01-min.png" alt="header background image"/>
@@ -48,7 +56,7 @@
 
 <header>
     <div class="logo">
-        <a href="#main"><img src="./images/logo-old-02-min.png" alt="Vriendly logo"/></a>
+        <a href="./index.html"><img src="./images/logo-old-02-min.png" alt="Vriendly logo"/></a>
     </div>
 
     <!-- NAVIGATION FOR BIG SCREENS START -->
@@ -73,13 +81,13 @@
                     <a href="index.html"><span> Video</span></a>
                 </div>
             </li>
-            <li class="who-we-are">
+            <!-- <li class="who-we-are">
                 <p><span>Pricing</span></p>
                 <div class="items">
                     <a href="index.html"><span> Subscription</span></a>
                     <a href="index.html"><span>Single event</span></a>
                 </div>
-            </li>
+            </li> -->
             <li style="display: none" class="order-vriendly">
                 <p><span>Order Vriendly</span></p>
                 <div class="items">
@@ -87,7 +95,7 @@
                 </div>
             </li>
             <li class="upcoming"><a href="upcoming.html"><span>Upcoming session</span></a></li>
-            <li class="sign-up-for-beta"><a href="#"><span>Sing up for Beta</span></a></li>
+            <li class="sign-up-for-beta"><a href="./sign-for-beta.html"><span>Sign up for Beta</span></a></li>
 
         </ul>
     </nav>
@@ -134,15 +142,15 @@
                 <a href="index.html"><span>Video</span></a>
             </div>
         </li>
-        <li class="who-we-are" id="whoweare">
+        <!-- <li class="who-we-are" id="whoweare">
             <a href="index.html"><span>Pricing<img src="./images/down-arrow-01-min.png" alt="right arrow"></span></a>
             <div class="items">
                 <a href="index.html"><span> Subscription</span></a>
                 <a href="index.html"><span>Single event</span></a>
             </div>
-        </li>
+        </li> -->
         <li class="upcoming"><a href="upcoming.html"><span>Upcoming session</span></a></li>
-        <li class="sign-up-for-beta"><a href="#"><span>Sign up for Beta</span></a></li>
+        <li class="sign-up-for-beta"><a href="./sign-for-beta.html"><span>Sign up for Beta</span></a></li>
 
     </ul>
 </nav>
@@ -168,20 +176,28 @@
 
 <!-- HEADER END -->
 
+
 <!-- MAIN START -->
 <main id="main">
     <div class="bg-image">
-        <div class="login-container">
-            <h1 class="login-title">Sign for Beta</h1>
-            <form class="login-form">
-
-            <input class="form-inputs" name="fullname" type="text" placeholder="Full name">
-            <input class="form-inputs" name="company" type="text" placeholder="Company">
-            <input class="form-inputs" name="email" type="email" placeholder="Email address">
-
-            <input class="form-submit" value="Talk to sales!" type="submit">
-
-           </form>
+        <div class="register-container">
+            <h1 class="register-title">Congratulation</h1>
+            <form class="register-form">
+               
+                
+<p>
+Please check your e-mail for confirmation 
+</p>
+                <div class="backRegister">
+                    <a id="registerDirection" class="termcond" href="./register.html"><img src="./images/Arrow 4.png" alt="">
+                        Back</a>
+                </div>
+                
+            </form>
+            <div class="bottom-text">
+                <h3>thank you!</h3>
+                <h3>we will contact you soon</h3>
+            </div>
         </div>
     </div>
 </main>
@@ -194,7 +210,7 @@
             <div class="our-company">
                 <h2>Our Company</h2>
                 <div class="items">
-                    <a rel="noreferrer" href="index.html"><span>Our Story</span></a>
+                    <a rel="noreferrer" href="index.html"><span>Our story</span></a>
                     <a rel="noreferrer" href="index.html"><span>Advantages</span></a>
                     <a rel="noreferrer" href="index.html"><span>Team</span></a>
                     <a rel="noreferrer" href="index.html"><span>Partners</span></a>
@@ -212,8 +228,8 @@
             <div class="who-we-are">
                 <h2>Beta and Upcoming </h2>
                 <div class="items">
-                    <a rel="noreferrer" href="index.html"><span>Sign up for Beta</span></a>
-                    <a rel="noreferrer" href="index.html"><span>Upcoming Session</span></a>
+                    <a rel="noreferrer" href="./sign-for-beta.html"><span>Sign up for Beta</span></a>
+                    <a rel="noreferrer" href="upcoming.html"><span>Upcoming Session</span></a>
                 </div>
             </div>
             <div class="contact-us">
@@ -249,7 +265,7 @@
     <div class="footer-sm-screen">
 
         <div class="our-company">
-            <a rel="noreferrer" href="index.html"><span>About Us</span></a>
+            <a rel="noreferrer" href="index.html"><span>Our story</span></a>
             <a rel="noreferrer" href="index.html"><span>Advantages</span></a>
             <a rel="noreferrer" href="index.html"><span>Team</span></a>
                 <a rel="noreferrer" href="index.html"><span>Partners</span></a>
@@ -259,11 +275,11 @@
             <!-- <a href="#how-it-works"><span>How It Works</span></a> -->
             <a rel="noreferrer" href="index.html"><span>Milestones</span></a>
             <a rel="noreferrer" href="index.html"><span>Customers</span></a>
-            <a rel="noreferrer" href="index.html"><span>Demo Video</span></a>
+            <a rel="noreferrer" href="index.html"><span> Video</span></a>
         </div>
         <div class="who-we-are">
-            <a rel="noreferrer" href="index.html"><span>Subscription</span></a>
-            <a rel="noreferrer" href="index.html"><span>Single event</span></a>
+            <a rel="noreferrer" href="sign-for-beta.html"><span>Sign up for Beta</span></a>
+            <a rel="noreferrer" href="upcoming.html"><span>Upcoming Session</span></a>
         </div>
         <div class="contact-us">
             <a rel="noreferrer" href="mailto:info@vriendly.co">
@@ -295,12 +311,17 @@
 
 
 
+
 <div class="tracker"></div>
 
+<script src="./congratulation/congratulation-page.js"></script>
+<!-- BOOTSTRAP SCRIPT -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
 <!-- animations on scroll -->
-<script src="./login/login.js"></script>
 <script src="upcoming/upcoming-animation.js"></script>
-<!-- <script src="/js/animations.js"></script> -->
+<!--<script src="/js/animations.js"></script>-->
 
 
 </body>
