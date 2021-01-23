@@ -19917,6 +19917,12 @@ footer#contact-us div.footer-sm-screen .copyright p {
 /* 340px */
 @media only screen and (max-width: 340px) {
     /* LOADING STARTS */
+    section#team .team-container .member .info h3{
+        margin-bottom: 2px;
+    }
+   .major{
+       margin-top:2px !important  ;
+   }
     .wrapper {
         height: 100vh;
         width: 100vw;

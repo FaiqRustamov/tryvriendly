@@ -21256,3 +21256,6 @@ footer#contact-us div.footer-sm-screen .copyright p {
     background-color: #6d2359;
     opacity: 0.5;
 }
+.termcond:hover{
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
